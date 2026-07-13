@@ -12,7 +12,7 @@ Projeto de portfólio desenvolvido para aprender backend na prática: API em Pyt
 - [x] Tabelas criadas via SQL puro (DDL) no DBeaver, com chaves estrangeiras
 - [x] Conexão configurada (`database.py`)
 - [x] Modelos SQLAlchemy espelhando as tabelas (`models.py`)
-- [x] Teste de leitura via SQLAlchemy (em andamento)
+- [x] Teste de leitura via SQLAlchemy
 - [ ] Rotas da API (CRUD de produtos)
 - [ ] Autenticação de usuários
 - [ ] Movimentação de estoque (entrada/saída)
