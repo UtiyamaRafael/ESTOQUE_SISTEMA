@@ -1,5 +1,9 @@
 from sqlalchemy import Column, Integer, String, Numeric, Enum, ForeignKey, DateTime, Boolean
-from database import Base
+
+try:
+    from .database import Base
+except ImportError:
+    from database import Base
 
 class Categoria(Base):
     __tablename__ = "categorias"
